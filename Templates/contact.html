@@ -1,0 +1,91 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; 
+            color: #e0e0e0; 
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #1e1e1e; 
+            border: 1px solid #333333; 
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+        }
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #90caf9; 
+        }
+        .highlight {
+            color: #ffcc80;
+            font-weight: bold;
+        }
+        .info-box {
+            background-color: #2e2e2e; 
+            border: 1px solid #444444; 
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #bdbdbd;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #90caf9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>
+                <img src="https://res.cloudinary.com/dc0lqom9f/image/upload/v1742394722/lmsfolder/k58j8kqbqn4o7t2dnnh3.jpg" alt="BAYG">
+            </h1>
+            <p>Hi <span class="highlight">{{ name }}</span>,</p>
+            <p>Thank you for reaching out to <strong>BAYG</strong>! 🙌</p>
+            <div class="info-box">
+                <p>We’ve received your message successfully. Our team will get in touch with you shortly. Stay tuned!</p>
+                <p><strong>BAYG</strong> is a rising startup dedicated to providing high-quality <strong>hardware components</strong> for all your needs.</p>
+            </div>
+            <p>If you have any questions in the meantime, feel free to contact us:</p>
+            <ul>
+                <li>📞 Phone: <strong>+91 8588940423</strong></li>
+                <li>📧 Email: <strong>bayg@gmail.com</strong></li>
+            </ul>
+            <p>Warm regards,<br><strong>Gajesh Chauhan</strong><br>CEO, BAYG</p>
+        </div>
+        <div class="footer">
+            &copy; 2024 BAYG | Empowering Hardware Innovation
+        </div>
+    </div>
+</body>
+</html>
