@@ -29,7 +29,8 @@ app.use(cors({
     "http://localhost:5173",
     "http://localhost:5174",
     "https://bayg.vercel.app",
-    "https://bayges.co.in",
+    "https://www.bayges.co.in",
+    "https://bayges.co.in"
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
